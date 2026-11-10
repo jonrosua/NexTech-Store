@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Try a sample contact form with local JavaScript validation.">
+  <title>Contact | NexTech Store</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="index.html">NexTech <span>Store</span></a>
+      <div class="nav-links"><a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="about.html">About Us</a>
+<a href="contact.html" aria-current="page">Contact</a>
+<a href="faq.html">FAQ</a></div>
+      <a href="products.html#shopping-cart" class="cart-link" aria-label="View demonstration shopping cart">Cart <span class="cart-count">0</span></a>
+    </nav>
+  </header>
+  <main id="main"><section class="page-top"><div class="container"><p class="eyebrow">GET IN TOUCH</p><h1>Contact</h1><p>Try an example contact form with JavaScript validation.</p></div></section><section class="section container narrow"><div class="notice"><strong>Student demonstration:</strong> This form validates entries locally in your browser. It does not send messages or store personal information on a server. Please use test information only.</div><form id="contactForm" class="contact-form" novalidate><div class="field"><label for="contactName">Name <span aria-hidden="true">*</span></label><input type="text" id="contactName" name="name" maxlength="80" autocomplete="off" required><small class="field-error" id="nameError"></small></div><div class="field"><label for="contactEmail">Email <span aria-hidden="true">*</span></label><input type="email" id="contactEmail" name="email" maxlength="120" autocomplete="off" required><small class="field-error" id="emailError"></small></div><div class="field"><label for="contactTopic">Topic</label><select id="contactTopic" name="topic"><option>General question</option><option>Products</option><option>Website feedback</option></select></div><div class="field"><label for="contactMessage">Message <span aria-hidden="true">*</span></label><textarea id="contactMessage" name="message" rows="6" maxlength="1000" required></textarea><small class="field-error" id="messageError"></small></div><button class="button" type="submit">Validate message</button><p id="formStatus" role="status" aria-live="polite"></p></form><p>Looking for a quick answer? Visit our <a href="faq.html">frequently asked questions</a>.</p></section></main>
+  <footer class="site-footer"><div class="container footer-content"><p>© <span class="year">2026</span> NexTech Store · Student web development project</p><p>Demonstration website. No real purchases or messages are processed.</p></div></footer>
+</body>
+</html>

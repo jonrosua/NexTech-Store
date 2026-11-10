@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse the sample NexTech Store technology catalog.">
+  <title>Products | NexTech Store</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="index.html">NexTech <span>Store</span></a>
+      <div class="nav-links"><a href="index.html">Home</a>
+<a href="products.html" aria-current="page">Products</a>
+<a href="about.html">About Us</a>
+<a href="contact.html">Contact</a>
+<a href="faq.html">FAQ</a></div>
+      <a href="products.html#shopping-cart" class="cart-link" aria-label="View demonstration shopping cart">Cart <span class="cart-count">0</span></a>
+    </nav>
+  </header>
+  <main id="main">
+<section class="page-top"><div class="container"><p class="eyebrow">EXPLORE OUR COLLECTION</p><h1>Technology products</h1><p>Find a product, filter by category, and try our sample shopping cart.</p></div></section>
+<section class="section container"><div class="controls"><div class="field"><label for="productSearch">Search products</label><input id="productSearch" type="search" placeholder="Try laptop, phone, or headphones" autocomplete="off"></div><div class="field"><label for="categoryFilter">Category</label><select id="categoryFilter"><option value="All">All categories</option><option value="Laptops">Laptops</option><option value="Phones">Phones</option><option value="Accessories">Accessories</option></select></div></div><p id="productStatus" class="muted" role="status" aria-live="polite">Showing 6 products.</p><div class="product-grid" id="productGrid"><article class="product-card" data-name="Laptop Pro 14" data-category="Laptops" data-price="799"><div class="product-emoji" aria-hidden="true">💻</div><div class="product-details"><span class="category-tag">Laptops</span><h3>Laptop Pro 14</h3><p>Portable laptop for study, work, and daily productivity.</p><div class="card-bottom"><strong>$799.00</strong><button class="button button-small add-cart" type="button" data-product="Laptop Pro 14" data-price="799">Add to cart</button></div></div></article>
+<article class="product-card" data-name="Everyday Laptop" data-category="Laptops" data-price="549"><div class="product-emoji" aria-hidden="true">🧑‍💻</div><div class="product-details"><span class="category-tag">Laptops</span><h3>Everyday Laptop</h3><p>Lightweight computer for browsing, documents, and classes.</p><div class="card-bottom"><strong>$549.00</strong><button class="button button-small add-cart" type="button" data-product="Everyday Laptop" data-price="549">Add to cart</button></div></div></article>
+<article class="product-card" data-name="Nova Smartphone" data-category="Phones" data-price="599"><div class="product-emoji" aria-hidden="true">📱</div><div class="product-details"><span class="category-tag">Phones</span><h3>Nova Smartphone</h3><p>Versatile smartphone with a modern display.</p><div class="card-bottom"><strong>$599.00</strong><button class="button button-small add-cart" type="button" data-product="Nova Smartphone" data-price="599">Add to cart</button></div></div></article>
+<article class="product-card" data-name="Compact Smartphone" data-category="Phones" data-price="399"><div class="product-emoji" aria-hidden="true">📲</div><div class="product-details"><span class="category-tag">Phones</span><h3>Compact Smartphone</h3><p>Easy-to-use mobile device for everyday communication.</p><div class="card-bottom"><strong>$399.00</strong><button class="button button-small add-cart" type="button" data-product="Compact Smartphone" data-price="399">Add to cart</button></div></div></article>
+<article class="product-card" data-name="Wireless Headphones" data-category="Accessories" data-price="129"><div class="product-emoji" aria-hidden="true">🎧</div><div class="product-details"><span class="category-tag">Accessories</span><h3>Wireless Headphones</h3><p>Comfortable over-ear audio for music and meetings.</p><div class="card-bottom"><strong>$129.00</strong><button class="button button-small add-cart" type="button" data-product="Wireless Headphones" data-price="129">Add to cart</button></div></div></article>
+<article class="product-card" data-name="Bluetooth Keyboard" data-category="Accessories" data-price="49"><div class="product-emoji" aria-hidden="true">⌨️</div><div class="product-details"><span class="category-tag">Accessories</span><h3>Bluetooth Keyboard</h3><p>Compact keyboard for a productive workspace.</p><div class="card-bottom"><strong>$49.00</strong><button class="button button-small add-cart" type="button" data-product="Bluetooth Keyboard" data-price="49">Add to cart</button></div></div></article></div><p class="small-note">Products and prices are fictional examples for an academic project.</p></section>
+<section class="section section-soft" id="shopping-cart"><div class="container"><div class="section-heading"><div><p class="eyebrow dark">INTERACTIVE DEMO</p><h2>Shopping cart</h2></div><button id="clearCart" class="button button-ghost" type="button">Clear cart</button></div><div class="cart-panel"><ul id="cartItems" class="cart-items"><li>Your cart is empty.</li></ul><p class="cart-total">Total: <strong id="cartTotal">$0.00</strong></p><p class="small-note">This is a demonstration only. No checkout, payment, or real order is available.</p><p id="cartMessage" role="status" aria-live="polite" class="muted"></p></div></div></section>
+</main>
+  <footer class="site-footer"><div class="container footer-content"><p>© <span class="year">2026</span> NexTech Store · Student web development project</p><p>Demonstration website. No real purchases or messages are processed.</p></div></footer>
+</body>
+</html>
